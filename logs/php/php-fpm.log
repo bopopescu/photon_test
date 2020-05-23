@@ -1,0 +1,55 @@
+[13-Apr-2020 12:33:12] NOTICE: fpm is running, pid 16
+[13-Apr-2020 12:33:12] NOTICE: ready to handle connections
+[13-Apr-2020 14:54:57] NOTICE: Terminating ...
+[13-Apr-2020 14:54:57] NOTICE: exiting, bye-bye!
+[13-Apr-2020 16:24:56] NOTICE: fpm is running, pid 55
+[13-Apr-2020 16:24:56] NOTICE: ready to handle connections
+[17-Apr-2020 16:22:22] NOTICE: Terminating ...
+[17-Apr-2020 16:22:22] NOTICE: exiting, bye-bye!
+[17-Apr-2020 19:59:52] NOTICE: fpm is running, pid 59
+[17-Apr-2020 19:59:52] NOTICE: ready to handle connections
+[20-Apr-2020 09:49:50] NOTICE: Terminating ...
+[20-Apr-2020 09:49:50] NOTICE: exiting, bye-bye!
+[21-Apr-2020 09:53:17] NOTICE: fpm is running, pid 55
+[21-Apr-2020 09:53:17] NOTICE: ready to handle connections
+[21-Apr-2020 09:54:36] NOTICE: Terminating ...
+[21-Apr-2020 09:54:36] NOTICE: exiting, bye-bye!
+[21-Apr-2020 11:45:32] NOTICE: fpm is running, pid 53
+[21-Apr-2020 11:45:32] NOTICE: ready to handle connections
+[21-Apr-2020 11:57:34] NOTICE: Terminating ...
+[21-Apr-2020 11:57:34] NOTICE: exiting, bye-bye!
+[21-Apr-2020 12:03:56] NOTICE: fpm is running, pid 55
+[21-Apr-2020 12:03:56] NOTICE: ready to handle connections
+[22-Apr-2020 12:57:13] NOTICE: Terminating ...
+[22-Apr-2020 12:57:13] NOTICE: exiting, bye-bye!
+[06-May-2020 08:55:44] NOTICE: fpm is running, pid 26
+[06-May-2020 08:55:44] NOTICE: ready to handle connections
+[06-May-2020 09:06:01] NOTICE: Terminating ...
+[06-May-2020 09:06:01] NOTICE: exiting, bye-bye!
+[19-May-2020 16:08:19] NOTICE: fpm is running, pid 56
+[19-May-2020 16:08:19] NOTICE: ready to handle connections
+[19-May-2020 16:51:31] NOTICE: Terminating ...
+[19-May-2020 16:51:31] NOTICE: exiting, bye-bye!
+[20-May-2020 15:32:48] NOTICE: fpm is running, pid 57
+[20-May-2020 15:32:48] NOTICE: ready to handle connections
+[20-May-2020 15:44:42] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[20-May-2020 15:48:23] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[20-May-2020 15:49:04] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[20-May-2020 16:31:45] NOTICE: Terminating ...
+[20-May-2020 16:31:45] NOTICE: exiting, bye-bye!
+[21-May-2020 09:46:40] NOTICE: fpm is running, pid 57
+[21-May-2020 09:46:40] NOTICE: ready to handle connections
+[21-May-2020 16:46:10] NOTICE: Terminating ...
+[21-May-2020 16:46:10] NOTICE: exiting, bye-bye!
+[21-May-2020 18:00:09] NOTICE: fpm is running, pid 57
+[21-May-2020 18:00:09] NOTICE: ready to handle connections
+[21-May-2020 18:08:46] NOTICE: Terminating ...
+[21-May-2020 18:08:46] NOTICE: exiting, bye-bye!
+[22-May-2020 10:30:30] NOTICE: fpm is running, pid 24
+[22-May-2020 10:30:30] NOTICE: ready to handle connections
+[22-May-2020 10:50:57] NOTICE: Terminating ...
+[22-May-2020 10:50:57] NOTICE: exiting, bye-bye!
+[22-May-2020 14:43:06] NOTICE: fpm is running, pid 26
+[22-May-2020 14:43:06] NOTICE: ready to handle connections
+[22-May-2020 16:22:06] NOTICE: Terminating ...
+[22-May-2020 16:22:06] NOTICE: exiting, bye-bye!

@@ -1,0 +1,166 @@
+[13-Apr-2020 12:33:41 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/SynopsisValidator.php on line 92
+[13-Apr-2020 12:33:41 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/SynopsisValidator.php on line 92
+[13-Apr-2020 14:51:50 UTC] PHP Warning:  file_get_contents(http://testsite.local/?page_id=3): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /app/public/wp-content/plugins/scrollrevealjs-effects/includes/simple_html_dom.php on line 75
+[13-Apr-2020 14:51:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /app/public/wp-content/plugins/scrollrevealjs-effects/includes/edit.php:152
+Stack trace:
+#0 /app/public/wp-admin/includes/template.php(1345): scroll_reveal_js_form_meta_box_handler(Array, Array)
+#1 /app/public/wp-content/plugins/scrollrevealjs-effects/includes/edit.php(134): do_meta_boxes(Object(WP_Screen), 'normal', Array)
+#2 /app/public/wp-includes/class-wp-hook.php(287): scroll_reveal_js_form_page('')
+#3 /app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /app/public/wp-admin/admin.php(254): do_action('scrollreveal-js...')
+#6 {main}
+  thrown in /app/public/wp-content/plugins/scrollrevealjs-effects/includes/edit.php on line 152
+[14-Apr-2020 13:36:55 UTC] PHP Parse error:  syntax error, unexpected '$args' (T_VARIABLE), expecting '(' in /app/public/wp-content/themes/Photon/header.php on line 20
+[14-Apr-2020 14:49:56 UTC] PHP Parse error:  syntax error, unexpected '.4' (T_DNUMBER), expecting ',' or ')' in /app/public/wp-content/themes/Photon/functions.php on line 6
+[14-Apr-2020 14:49:56 UTC] PHP Parse error:  syntax error, unexpected '.4' (T_DNUMBER), expecting ',' or ')' in /app/public/wp-content/themes/Photon/functions.php on line 6
+[15-Apr-2020 11:15:09 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /app/public/wp-content/themes/Photon/template-parts/home.php on line 32
+[15-Apr-2020 11:15:29 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /app/public/wp-content/themes/Photon/template-parts/home.php on line 32
+[15-Apr-2020 11:15:30 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /app/public/wp-content/themes/Photon/template-parts/home.php on line 32
+[15-Apr-2020 11:16:03 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /app/public/wp-content/themes/Photon/template-parts/home.php on line 32
+[15-Apr-2020 11:16:04 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /app/public/wp-content/themes/Photon/template-parts/home.php on line 32
+[15-Apr-2020 11:16:05 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /app/public/wp-content/themes/Photon/template-parts/home.php on line 32
+[15-Apr-2020 11:16:05 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /app/public/wp-content/themes/Photon/template-parts/home.php on line 32
+[15-Apr-2020 11:17:15 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /app/public/wp-content/themes/Photon/template-parts/home.php on line 32
+[15-Apr-2020 11:17:16 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /app/public/wp-content/themes/Photon/template-parts/home.php on line 32
+[15-Apr-2020 11:17:17 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /app/public/wp-content/themes/Photon/template-parts/home.php on line 32
+[15-Apr-2020 11:19:04 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /app/public/wp-content/themes/Photon/template-parts/home.php on line 32
+[15-Apr-2020 11:20:08 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /app/public/wp-content/themes/Photon/template-parts/home.php on line 32
+[15-Apr-2020 11:21:04 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /app/public/wp-content/themes/Photon/template-parts/home.php on line 32
+[15-Apr-2020 11:21:15 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /app/public/wp-content/themes/Photon/template-parts/home.php on line 32
+[15-Apr-2020 11:48:37 UTC] PHP Parse error:  syntax error, unexpected 'btn' (T_STRING), expecting ',' or ';' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 31
+[15-Apr-2020 11:49:34 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 35
+[15-Apr-2020 11:49:35 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 35
+[15-Apr-2020 11:55:29 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 51
+[15-Apr-2020 12:00:46 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 25
+[15-Apr-2020 12:01:24 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 25
+[15-Apr-2020 12:03:38 UTC] PHP Parse error:  syntax error, unexpected '$button' (T_VARIABLE), expecting ',' or ';' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 25
+[15-Apr-2020 12:04:04 UTC] PHP Parse error:  syntax error, unexpected '$button' (T_VARIABLE), expecting ',' or ';' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 25
+[15-Apr-2020 12:04:26 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 25
+[15-Apr-2020 12:06:09 UTC] PHP Parse error:  syntax error, unexpected '?' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 25
+[15-Apr-2020 12:06:44 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 25
+[15-Apr-2020 12:08:06 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 25
+[15-Apr-2020 12:08:39 UTC] PHP Parse error:  syntax error, unexpected ''<button class="btn-general bt' (T_CONSTANT_ENCAPSED_STRING) in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 25
+[15-Apr-2020 12:09:10 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ')' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 25
+[15-Apr-2020 12:11:01 UTC] PHP Parse error:  syntax error, unexpected '$button' (T_VARIABLE), expecting ',' or ';' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 25
+[15-Apr-2020 12:11:14 UTC] PHP Parse error:  syntax error, unexpected '.' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 25
+[15-Apr-2020 12:11:15 UTC] PHP Parse error:  syntax error, unexpected '.' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 25
+[15-Apr-2020 12:16:08 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 25
+[15-Apr-2020 12:16:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function print_f() in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php:25
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(339): include()
+#1 /app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(284): acf_render_block(Array, '', false, 63)
+#2 /app/public/wp-includes/class-wp-block-type.php(109): acf_rendered_block(Array, '')
+#3 /app/public/wp-includes/blocks.php(487): WP_Block_Type->render(Array, '')
+#4 /app/public/wp-includes/blocks.php(537): render_block(Array)
+#5 /app/public/wp-includes/class-wp-hook.php(287): do_blocks('<!-- wp:acf/tex...')
+#6 /app/public/wp-includes/plugin.php(206): WP_Hook->apply_filters('<!-- wp:acf/tex...', Array)
+#7 /app/public/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:acf/tex...')
+#8 /app/public/wp-content/themes/Photon/template-parts/home.php(28): the_content()
+#9 /app/public/wp-includes/template-loader.php(106): include('/app/ in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 25
+[15-Apr-2020 12:16:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function var_dumb() in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php:25
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(339): include()
+#1 /app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(284): acf_render_block(Array, '', false, 63)
+#2 /app/public/wp-includes/class-wp-block-type.php(109): acf_rendered_block(Array, '')
+#3 /app/public/wp-includes/blocks.php(487): WP_Block_Type->render(Array, '')
+#4 /app/public/wp-includes/blocks.php(537): render_block(Array)
+#5 /app/public/wp-includes/class-wp-hook.php(287): do_blocks('<!-- wp:acf/tex...')
+#6 /app/public/wp-includes/plugin.php(206): WP_Hook->apply_filters('<!-- wp:acf/tex...', Array)
+#7 /app/public/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:acf/tex...')
+#8 /app/public/wp-content/themes/Photon/template-parts/home.php(28): the_content()
+#9 /app/public/wp-includes/template-loader.php(106): include('/app in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 25
+[15-Apr-2020 12:16:52 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 25
+[15-Apr-2020 15:36:24 UTC] PHP Fatal error:  Cannot redeclare my_acf_blocks_init() (previously declared in /app/public/wp-content/themes/Photon/functions.php:94) in /app/public/wp-content/themes/Photon/functions.php on line 126
+[15-Apr-2020 15:36:29 UTC] PHP Fatal error:  Cannot redeclare my_acf_blocks_init() (previously declared in /app/public/wp-content/themes/Photon/functions.php:94) in /app/public/wp-content/themes/Photon/functions.php on line 126
+[15-Apr-2020 15:36:32 UTC] PHP Fatal error:  Cannot redeclare my_acf_blocks_init() (previously declared in /app/public/wp-content/themes/Photon/functions.php:94) in /app/public/wp-content/themes/Photon/functions.php on line 126
+[15-Apr-2020 15:36:32 UTC] PHP Fatal error:  Cannot redeclare my_acf_blocks_init() (previously declared in /app/public/wp-content/themes/Photon/functions.php:94) in /app/public/wp-content/themes/Photon/functions.php on line 126
+[15-Apr-2020 15:36:34 UTC] PHP Fatal error:  Cannot redeclare my_acf_blocks_init() (previously declared in /app/public/wp-content/themes/Photon/functions.php:94) in /app/public/wp-content/themes/Photon/functions.php on line 126
+[15-Apr-2020 15:36:36 UTC] PHP Fatal error:  Cannot redeclare my_acf_blocks_init() (previously declared in /app/public/wp-content/themes/Photon/functions.php:94) in /app/public/wp-content/themes/Photon/functions.php on line 126
+[15-Apr-2020 15:36:36 UTC] PHP Fatal error:  Cannot redeclare my_acf_blocks_init() (previously declared in /app/public/wp-content/themes/Photon/functions.php:94) in /app/public/wp-content/themes/Photon/functions.php on line 126
+[15-Apr-2020 15:36:40 UTC] PHP Fatal error:  Cannot redeclare my_acf_blocks_init() (previously declared in /app/public/wp-content/themes/Photon/functions.php:94) in /app/public/wp-content/themes/Photon/functions.php on line 126
+[15-Apr-2020 15:36:44 UTC] PHP Fatal error:  Cannot redeclare my_acf_blocks_init() (previously declared in /app/public/wp-content/themes/Photon/functions.php:94) in /app/public/wp-content/themes/Photon/functions.php on line 126
+[15-Apr-2020 15:36:45 UTC] PHP Fatal error:  Cannot redeclare my_acf_blocks_init() (previously declared in /app/public/wp-content/themes/Photon/functions.php:94) in /app/public/wp-content/themes/Photon/functions.php on line 126
+[15-Apr-2020 15:36:45 UTC] PHP Fatal error:  Cannot redeclare my_acf_blocks_init() (previously declared in /app/public/wp-content/themes/Photon/functions.php:94) in /app/public/wp-content/themes/Photon/functions.php on line 126
+[15-Apr-2020 15:36:46 UTC] PHP Fatal error:  Cannot redeclare my_acf_blocks_init() (previously declared in /app/public/wp-content/themes/Photon/functions.php:94) in /app/public/wp-content/themes/Photon/functions.php on line 126
+[15-Apr-2020 15:36:46 UTC] PHP Fatal error:  Cannot redeclare my_acf_blocks_init() (previously declared in /app/public/wp-content/themes/Photon/functions.php:94) in /app/public/wp-content/themes/Photon/functions.php on line 126
+[15-Apr-2020 15:36:49 UTC] PHP Fatal error:  Cannot redeclare my_acf_blocks_init() (previously declared in /app/public/wp-content/themes/Photon/functions.php:94) in /app/public/wp-content/themes/Photon/functions.php on line 126
+[15-Apr-2020 15:36:50 UTC] PHP Fatal error:  Cannot redeclare my_acf_blocks_init() (previously declared in /app/public/wp-content/themes/Photon/functions.php:94) in /app/public/wp-content/themes/Photon/functions.php on line 126
+[15-Apr-2020 15:36:50 UTC] PHP Fatal error:  Cannot redeclare my_acf_blocks_init() (previously declared in /app/public/wp-content/themes/Photon/functions.php:94) in /app/public/wp-content/themes/Photon/functions.php on line 126
+[16-Apr-2020 11:59:59 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/Photon/template-parts/home.php on line 14
+[16-Apr-2020 13:03:52 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/Photon/template-parts/blocks/portfolio-block.php on line 6
+[16-Apr-2020 13:04:05 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/Photon/template-parts/blocks/portfolio-block.php on line 6
+[16-Apr-2020 13:56:44 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/Photon/template-parts/blocks/text_post-block.php on line 61
+[16-Apr-2020 13:57:37 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/Photon/template-parts/blocks/text_post-block.php on line 61
+[16-Apr-2020 13:58:37 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/Photon/template-parts/blocks/text_post-block.php on line 61
+[16-Apr-2020 13:58:57 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/Photon/template-parts/blocks/text_post-block.php on line 61
+[16-Apr-2020 13:58:58 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/Photon/template-parts/blocks/text_post-block.php on line 61
+[16-Apr-2020 13:58:58 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/Photon/template-parts/blocks/text_post-block.php on line 61
+[16-Apr-2020 13:58:59 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/Photon/template-parts/blocks/text_post-block.php on line 61
+[16-Apr-2020 13:59:05 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/Photon/template-parts/blocks/text_post-block.php on line 61
+[18-Apr-2020 08:30:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function print_f() in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media_2-block.php:13
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(339): include()
+#1 /app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(284): acf_render_block(Array, '', false, 63)
+#2 /app/public/wp-includes/class-wp-block-type.php(109): acf_rendered_block(Array, '')
+#3 /app/public/wp-includes/blocks.php(487): WP_Block_Type->render(Array, '')
+#4 /app/public/wp-includes/blocks.php(537): render_block(Array)
+#5 /app/public/wp-includes/class-wp-hook.php(287): do_blocks('<!-- wp:acf/hea...')
+#6 /app/public/wp-includes/plugin.php(206): WP_Hook->apply_filters('<!-- wp:acf/hea...', Array)
+#7 /app/public/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:acf/hea...')
+#8 /app/public/wp-content/themes/Photon/template-parts/home.php(13): the_content()
+#9 /app/public/wp-includes/template-loader.php(106): include('/ap in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media_2-block.php on line 13
+[18-Apr-2020 08:47:13 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media_2-block.php on line 22
+[18-Apr-2020 08:47:13 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media_2-block.php on line 22
+[18-Apr-2020 08:47:52 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 08:47:52 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 08:48:07 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media_2-block.php on line 22
+[18-Apr-2020 08:48:07 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media_2-block.php on line 22
+[18-Apr-2020 14:47:15 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:15 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:15 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:15 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:16 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:16 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:19 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:19 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:19 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:19 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:20 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:20 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:21 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:21 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:22 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:22 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:23 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:23 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:24 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:24 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:25 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:25 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:29 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:29 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:29 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:29 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:30 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:30 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:35 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:35 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:37 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:37 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:39 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:39 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:42 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:42 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:42 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:42 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:43 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:43 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:47 UTC] PHP Warning:  Illegal string offset 'url' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[18-Apr-2020 14:47:47 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/Photon/template-parts/blocks/text_media-block.php on line 27
+[20-May-2020 15:47:25 UTC] PHP Warning:  Declaration of Automattic\WooCommerce\Admin\Overrides\ThemeUpgraderSkin::feedback($string) should be compatible with WP_Upgrader_Skin::feedback($string, ...$args) in /app/public/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Overrides/ThemeUpgraderSkin.php on line 37
+[21-May-2020 14:45:23 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /app/public/wp-includes/post-template.php on line 317
+[22-May-2020 10:49:14 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 132136960 bytes) in /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 1065
+[22-May-2020 10:49:15 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 132124672 bytes) in /app/public/wp-includes/functions.php on line 4609
+[22-May-2020 10:50:10 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /app/public/wp-includes/post-template.php on line 317
