@@ -62,7 +62,7 @@ Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 2020-04-13T12:33:34.195599Z 6 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
 2020-04-13T12:46:32.726417Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 44124ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
 2020-04-13T14:54:56.646912Z 0 [Note] Giving 0 client threads a chance to die gracefully
-2020-04-13T14:54:56.647418Z 0 [Note] Shutting down slave threads
+2020-04-13T14:54:56.647418Z 0 [Note] Shutting down politician threads
 2020-04-13T14:54:56.647428Z 0 [Note] Forcefully disconnecting 0 remaining clients
 2020-04-13T14:54:56.647435Z 0 [Note] Event Scheduler: Purging the queue. 0 events
 2020-04-13T14:54:56.647531Z 0 [Note] Binlog end
@@ -182,7 +182,7 @@ Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 2020-04-17T07:19:35.294616Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 31960513ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
 2020-04-17T07:39:50.928876Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 47932ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
 2020-04-17T16:22:21.688374Z 0 [Note] Giving 0 client threads a chance to die gracefully
-2020-04-17T16:22:21.689262Z 0 [Note] Shutting down slave threads
+2020-04-17T16:22:21.689262Z 0 [Note] Shutting down politician threads
 2020-04-17T16:22:21.689274Z 0 [Note] Forcefully disconnecting 0 remaining clients
 2020-04-17T16:22:21.689286Z 0 [Note] Event Scheduler: Purging the queue. 0 events
 2020-04-17T16:22:21.689345Z 0 [Note] Binlog end
@@ -288,7 +288,7 @@ Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 2020-04-19T21:18:32.857693Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8255456ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
 2020-04-20T07:04:54.259880Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 31382012ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
 2020-04-20T09:49:49.432848Z 0 [Note] Giving 0 client threads a chance to die gracefully
-2020-04-20T09:49:49.434287Z 0 [Note] Shutting down slave threads
+2020-04-20T09:49:49.434287Z 0 [Note] Shutting down politician threads
 2020-04-20T09:49:49.434302Z 0 [Note] Forcefully disconnecting 0 remaining clients
 2020-04-20T09:49:49.434311Z 0 [Note] Event Scheduler: Purging the queue. 0 events
 2020-04-20T09:49:49.434373Z 0 [Note] Binlog end
@@ -384,7 +384,7 @@ Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 2020-04-21T09:53:18.528571Z 0 [Note] /usr/sbin/mysqld: ready for connections.
 Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
 2020-04-21T09:54:35.334755Z 0 [Note] Giving 0 client threads a chance to die gracefully
-2020-04-21T09:54:35.335702Z 0 [Note] Shutting down slave threads
+2020-04-21T09:54:35.335702Z 0 [Note] Shutting down politician threads
 2020-04-21T09:54:35.335714Z 0 [Note] Forcefully disconnecting 0 remaining clients
 2020-04-21T09:54:35.335720Z 0 [Note] Event Scheduler: Purging the queue. 0 events
 2020-04-21T09:54:35.335774Z 0 [Note] Binlog end
@@ -480,7 +480,7 @@ Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 2020-04-21T11:45:33.674457Z 0 [Note] /usr/sbin/mysqld: ready for connections.
 Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
 2020-04-21T11:57:33.521161Z 0 [Note] Giving 0 client threads a chance to die gracefully
-2020-04-21T11:57:33.521654Z 0 [Note] Shutting down slave threads
+2020-04-21T11:57:33.521654Z 0 [Note] Shutting down politician threads
 2020-04-21T11:57:33.521667Z 0 [Note] Forcefully disconnecting 0 remaining clients
 2020-04-21T11:57:33.521674Z 0 [Note] Event Scheduler: Purging the queue. 0 events
 2020-04-21T11:57:33.521732Z 0 [Note] Binlog end
@@ -578,7 +578,7 @@ Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 2020-04-21T20:41:07.548165Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 12769812ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
 2020-04-22T07:08:29.369328Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 31242124ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
 2020-04-22T12:57:12.038735Z 0 [Note] Giving 0 client threads a chance to die gracefully
-2020-04-22T12:57:12.039181Z 0 [Note] Shutting down slave threads
+2020-04-22T12:57:12.039181Z 0 [Note] Shutting down politician threads
 2020-04-22T12:57:12.039193Z 0 [Note] Forcefully disconnecting 0 remaining clients
 2020-04-22T12:57:12.039198Z 0 [Note] Event Scheduler: Purging the queue. 0 events
 2020-04-22T12:57:12.039254Z 0 [Note] Binlog end
@@ -674,7 +674,7 @@ Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 2020-05-06T08:55:45.298960Z 0 [Note] /usr/sbin/mysqld: ready for connections.
 Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
 2020-05-06T09:06:00.204282Z 0 [Note] Giving 0 client threads a chance to die gracefully
-2020-05-06T09:06:00.204668Z 0 [Note] Shutting down slave threads
+2020-05-06T09:06:00.204668Z 0 [Note] Shutting down politician threads
 2020-05-06T09:06:00.204677Z 0 [Note] Forcefully disconnecting 0 remaining clients
 2020-05-06T09:06:00.204683Z 0 [Note] Event Scheduler: Purging the queue. 0 events
 2020-05-06T09:06:00.205086Z 0 [Note] Binlog end
@@ -770,7 +770,7 @@ Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
 2020-05-19T16:08:20.962064Z 0 [Note] InnoDB: Buffer pool(s) load completed at 200519 16:08:20
 2020-05-19T16:51:30.438131Z 0 [Note] Giving 0 client threads a chance to die gracefully
-2020-05-19T16:51:30.438930Z 0 [Note] Shutting down slave threads
+2020-05-19T16:51:30.438930Z 0 [Note] Shutting down politician threads
 2020-05-19T16:51:30.438941Z 0 [Note] Forcefully disconnecting 0 remaining clients
 2020-05-19T16:51:30.438947Z 0 [Note] Event Scheduler: Purging the queue. 0 events
 2020-05-19T16:51:30.439006Z 0 [Note] Binlog end
@@ -866,7 +866,7 @@ Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 2020-05-20T15:32:49.953072Z 0 [Note] /usr/sbin/mysqld: ready for connections.
 Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
 2020-05-20T16:31:44.129509Z 0 [Note] Giving 0 client threads a chance to die gracefully
-2020-05-20T16:31:44.130826Z 0 [Note] Shutting down slave threads
+2020-05-20T16:31:44.130826Z 0 [Note] Shutting down politician threads
 2020-05-20T16:31:44.130844Z 0 [Note] Forcefully disconnecting 0 remaining clients
 2020-05-20T16:31:44.130853Z 0 [Note] Event Scheduler: Purging the queue. 0 events
 2020-05-20T16:31:44.130919Z 0 [Note] Binlog end
@@ -963,7 +963,7 @@ Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
 2020-05-21T13:50:11.381295Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8832238ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
 2020-05-21T16:46:08.585027Z 0 [Note] Giving 0 client threads a chance to die gracefully
-2020-05-21T16:46:08.585432Z 0 [Note] Shutting down slave threads
+2020-05-21T16:46:08.585432Z 0 [Note] Shutting down politician threads
 2020-05-21T16:46:08.585444Z 0 [Note] Forcefully disconnecting 0 remaining clients
 2020-05-21T16:46:08.585451Z 0 [Note] Event Scheduler: Purging the queue. 0 events
 2020-05-21T16:46:08.585591Z 0 [Note] Binlog end
@@ -1059,7 +1059,7 @@ Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 2020-05-21T18:00:10.507266Z 0 [Note] /usr/sbin/mysqld: ready for connections.
 Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
 2020-05-21T18:08:45.182957Z 0 [Note] Giving 0 client threads a chance to die gracefully
-2020-05-21T18:08:45.190759Z 0 [Note] Shutting down slave threads
+2020-05-21T18:08:45.190759Z 0 [Note] Shutting down politician threads
 2020-05-21T18:08:45.190905Z 0 [Note] Forcefully disconnecting 0 remaining clients
 2020-05-21T18:08:45.190919Z 0 [Note] Event Scheduler: Purging the queue. 0 events
 2020-05-21T18:08:45.191202Z 0 [Note] Binlog end
@@ -1155,7 +1155,7 @@ Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 2020-05-22T10:30:31.755610Z 0 [Note] /usr/sbin/mysqld: ready for connections.
 Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
 2020-05-22T10:50:56.701447Z 0 [Note] Giving 0 client threads a chance to die gracefully
-2020-05-22T10:50:56.702634Z 0 [Note] Shutting down slave threads
+2020-05-22T10:50:56.702634Z 0 [Note] Shutting down politician threads
 2020-05-22T10:50:56.702654Z 0 [Note] Forcefully disconnecting 0 remaining clients
 2020-05-22T10:50:56.702671Z 0 [Note] Event Scheduler: Purging the queue. 0 events
 2020-05-22T10:50:56.702869Z 0 [Note] Binlog end
@@ -1251,7 +1251,7 @@ Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 2020-05-22T14:43:07.608537Z 0 [Note] /usr/sbin/mysqld: ready for connections.
 Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
 2020-05-22T16:22:05.826879Z 0 [Note] Giving 0 client threads a chance to die gracefully
-2020-05-22T16:22:05.828928Z 0 [Note] Shutting down slave threads
+2020-05-22T16:22:05.828928Z 0 [Note] Shutting down politician threads
 2020-05-22T16:22:05.829324Z 0 [Note] Forcefully disconnecting 0 remaining clients
 2020-05-22T16:22:05.829336Z 0 [Note] Event Scheduler: Purging the queue. 0 events
 2020-05-22T16:22:05.829401Z 0 [Note] Binlog end

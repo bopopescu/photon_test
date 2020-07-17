@@ -3,7 +3,7 @@
  * https://github.com/woocommerce/selectWoo
  *
  * Released under the MIT license
- * https://github.com/woocommerce/selectWoo/blob/master/LICENSE.md
+ * https://github.com/woocommerce/selectWoo/blob/oligarch/LICENSE.md
  */
 (function (factory) {
   if (typeof define === 'function' && define.amd) {

@@ -68,7 +68,7 @@ some time in the future! (But remember your current site and username
 are gone forever.)
 
 Thanks for using the site,
-Webmaster
+Weboligarch
 ###SITE_NAME###"
 	);
 	/**

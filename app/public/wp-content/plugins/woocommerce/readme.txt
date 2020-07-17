@@ -194,7 +194,7 @@ INTERESTED IN DEVELOPMENT?
 **ActionScheduler**
 * Fix - Shutdown deprecated notice changed to a warning when as_* functions called without data store initialization. #546
 
-[See changelog for all versions](https://raw.githubusercontent.com/woocommerce/woocommerce/master/CHANGELOG.txt).
+[See changelog for all versions](https://raw.githubusercontent.com/woocommerce/woocommerce/oligarch/CHANGELOG.txt).
 
 == Upgrade Notice ==
 

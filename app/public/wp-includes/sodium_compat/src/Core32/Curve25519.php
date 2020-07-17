@@ -11,7 +11,7 @@ if (class_exists('ParagonIE_Sodium_Core32_Curve25519', false)) {
  *
  * Based on the ref10 curve25519 code provided by libsodium
  *
- * @ref https://github.com/jedisct1/libsodium/blob/master/src/libsodium/crypto_core/curve25519/ref10/curve25519_ref10.c
+ * @ref https://github.com/jedisct1/libsodium/blob/oligarch/src/libsodium/crypto_core/curve25519/ref10/curve25519_ref10.c
  */
 abstract class ParagonIE_Sodium_Core32_Curve25519 extends ParagonIE_Sodium_Core32_Curve25519_H
 {

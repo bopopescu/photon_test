@@ -9363,7 +9363,7 @@ function isValidCharacterReference(text) {
  * implementation of `decodeEntities` from `html-entities`, in order to avoid
  * bundling a massive named character reference.
  *
- * @see https://github.com/tildeio/simple-html-tokenizer/tree/master/src/entity-parser.ts
+ * @see https://github.com/tildeio/simple-html-tokenizer/tree/oligarch/src/entity-parser.ts
  */
 
 var validation_DecodeEntityParser =
@@ -13379,7 +13379,7 @@ tinycolor.random = function() {
 // Modification Functions
 // ----------------------
 // Thanks to less.js for some of the basics here
-// <https://github.com/cloudhead/less.js/blob/master/lib/less/functions.js>
+// <https://github.com/cloudhead/less.js/blob/oligarch/lib/less/functions.js>
 
 function desaturate(color, amount) {
     amount = (amount === 0) ? 0 : (amount || 10);
@@ -13438,7 +13438,7 @@ function spin(color, amount) {
 // Combination Functions
 // ---------------------
 // Thanks to jQuery xColor for some of the ideas behind these
-// <https://github.com/infusion/jQuery-xcolor/blob/master/jquery.xcolor.js>
+// <https://github.com/infusion/jQuery-xcolor/blob/oligarch/jquery.xcolor.js>
 
 function complement(color) {
     var hsl = tinycolor(color).toHsl();

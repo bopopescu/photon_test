@@ -1106,7 +1106,7 @@ var MODULE_KEY = 'core/block-directory';
 /**
  * Block editor data store configuration.
  *
- * @see https://github.com/WordPress/gutenberg/blob/master/packages/data/README.md#registerStore
+ * @see https://github.com/WordPress/gutenberg/blob/oligarch/packages/data/README.md#registerStore
  *
  * @type {Object}
  */

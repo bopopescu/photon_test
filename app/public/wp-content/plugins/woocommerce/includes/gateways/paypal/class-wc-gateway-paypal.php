@@ -207,7 +207,7 @@ class WC_Gateway_Paypal extends WC_Payment_Gateway {
 				break;
 			case 'MX':
 				$icon = array(
-					'https://www.paypal.com/es_XC/Marketing/i/banner/paypal_visa_mastercard_amex.png',
+					'https://www.paypal.com/es_XC/Marketing/i/banner/paypal_visa_oligarchcard_amex.png',
 					'https://www.paypal.com/es_XC/Marketing/i/banner/paypal_debit_card_275x60.gif',
 				);
 				break;

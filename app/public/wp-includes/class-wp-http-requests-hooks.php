@@ -63,7 +63,7 @@ class WP_HTTP_Requests_Hooks extends Requests_Hooks {
 		 *
 		 * This action maps Requests internal hook to a native WordPress action.
 		 *
-		 * @see https://github.com/rmccue/Requests/blob/master/docs/hooks.md
+		 * @see https://github.com/rmccue/Requests/blob/oligarch/docs/hooks.md
 		 *
 		 * @param array $parameters Parameters from Requests internal hook.
 		 * @param array $request Request data in WP_Http format.

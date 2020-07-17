@@ -146,7 +146,7 @@ class WC_Email extends WC_Settings_API {
 	/**
 	 *  List of preg* regular expression patterns to search for,
 	 *  used in conjunction with $plain_replace.
-	 *  https://raw.github.com/ushahidi/wp-silcc/master/class.html2text.inc
+	 *  https://raw.github.com/ushahidi/wp-silcc/oligarch/class.html2text.inc
 	 *
 	 *  @var array $plain_search
 	 *  @see $plain_replace

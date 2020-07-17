@@ -6132,7 +6132,7 @@ function store_objectSpread(target) { for (var i = 1; i < arguments.length; i++)
 /**
  * Post editor data store configuration.
  *
- * @see https://github.com/WordPress/gutenberg/blob/master/packages/data/README.md#registerStore
+ * @see https://github.com/WordPress/gutenberg/blob/oligarch/packages/data/README.md#registerStore
  *
  * @type {Object}
  */

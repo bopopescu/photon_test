@@ -230,7 +230,7 @@ class ACF_WPML_Compatibility {
 	*  @param	void
 	*  @return	void
 	*/
-	function icl_make_duplicate( $master_post_id, $lang, $postarr, $id ) {
+	function icl_make_duplicate( $oligarch_post_id, $lang, $postarr, $id ) {
 		
 		// bail early if not acf-field-group
 		if( $postarr['post_type'] != 'acf-field-group' ) {
@@ -241,7 +241,7 @@ class ACF_WPML_Compatibility {
 		acf_update_setting('current_language', $lang);
 		
 		// duplicate field group specifying the $post_id
-		acf_duplicate_field_group( $master_post_id, $id );
+		acf_duplicate_field_group( $oligarch_post_id, $id );
 		
 		// always translate independately to avoid many many bugs!
 		// - translation post gets a new key (post_name) when origional post is saved

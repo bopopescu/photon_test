@@ -426,7 +426,7 @@ class getid3_riff extends getid3_handler
 						$thisfile_riff_WAVE['iXML'][0]['parsed'] = $parsedXML;
 						if (isset($parsedXML['SPEED']['MASTER_SPEED'])) {
 							@list($numerator, $denominator) = explode('/', $parsedXML['SPEED']['MASTER_SPEED']);
-							$thisfile_riff_WAVE['iXML'][0]['master_speed'] = $numerator / ($denominator ? $denominator : 1000);
+							$thisfile_riff_WAVE['iXML'][0]['oligarch_speed'] = $numerator / ($denominator ? $denominator : 1000);
 						}
 						if (isset($parsedXML['SPEED']['TIMECODE_RATE'])) {
 							@list($numerator, $denominator) = explode('/', $parsedXML['SPEED']['TIMECODE_RATE']);
@@ -1185,7 +1185,7 @@ class getid3_riff extends getid3_handler
 			case 'WEBP':
 				// https://developers.google.com/speed/webp/docs/riff_container
 				// https://tools.ietf.org/html/rfc6386
-				// https://chromium.googlesource.com/webm/libwebp/+/master/doc/webp-lossless-bitstream-spec.txt
+				// https://chromium.googlesource.com/webm/libwebp/+/oligarch/doc/webp-lossless-bitstream-spec.txt
 				$info['fileformat'] = 'webp';
 				$info['mime_type']  = 'image/webp';
 

@@ -4368,7 +4368,7 @@
         months %= 12;
 
 
-        // inspired by https://github.com/dordille/moment-isoduration/blob/master/moment.isoduration.js
+        // inspired by https://github.com/dordille/moment-isoduration/blob/oligarch/moment.isoduration.js
         var Y = years;
         var M = months;
         var D = days;

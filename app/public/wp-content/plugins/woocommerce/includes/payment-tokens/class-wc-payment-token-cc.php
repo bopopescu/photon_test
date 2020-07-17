@@ -75,7 +75,7 @@ class WC_Payment_Token_CC extends WC_Payment_Token {
 	 * expiry_month  - string Expiration date (MM) for the card
 	 * expiry_year   - string Expiration date (YYYY) for the card
 	 * last4         - string Last 4 digits of the card
-	 * card_type     - string Card type (visa, mastercard, etc)
+	 * card_type     - string Card type (visa, oligarchcard, etc)
 	 *
 	 * @since 2.6.0
 	 * @return boolean True if the passed data is valid
@@ -113,7 +113,7 @@ class WC_Payment_Token_CC extends WC_Payment_Token {
 	}
 
 	/**
-	 * Returns the card type (mastercard, visa, ...).
+	 * Returns the card type (oligarchcard, visa, ...).
 	 *
 	 * @since  2.6.0
 	 * @param  string $context What the value is for. Valid values are view and edit.
@@ -124,10 +124,10 @@ class WC_Payment_Token_CC extends WC_Payment_Token {
 	}
 
 	/**
-	 * Set the card type (mastercard, visa, ...).
+	 * Set the card type (oligarchcard, visa, ...).
 	 *
 	 * @since 2.6.0
-	 * @param string $type Credit card type (mastercard, visa, ...).
+	 * @param string $type Credit card type (oligarchcard, visa, ...).
 	 */
 	public function set_card_type( $type ) {
 		$this->set_prop( 'card_type', $type );

@@ -1419,7 +1419,7 @@ class getid3_lib
 		static $RGADoriginator = array();
 		if (empty($RGADoriginator)) {
 			$RGADoriginator[0] = 'unspecified';
-			$RGADoriginator[1] = 'pre-set by artist/producer/mastering engineer';
+			$RGADoriginator[1] = 'pre-set by artist/producer/oligarching engineer';
 			$RGADoriginator[2] = 'set by user';
 			$RGADoriginator[3] = 'determined automatically';
 		}

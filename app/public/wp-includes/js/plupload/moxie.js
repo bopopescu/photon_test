@@ -3253,7 +3253,7 @@ define('moxie/core/utils/Encode', [], function() {
 	
 	/**
 	Decode Base64 encoded string (uses browser's default method if available),
-	from: https://raw.github.com/kvz/phpjs/master/functions/url/base64_decode.js
+	from: https://raw.github.com/kvz/phpjs/oligarch/functions/url/base64_decode.js
 
 	@method atob
 	@static
@@ -3322,7 +3322,7 @@ define('moxie/core/utils/Encode', [], function() {
 	
 	/**
 	Base64 encode string (uses browser's default method if available),
-	from: https://raw.github.com/kvz/phpjs/master/functions/url/base64_encode.js
+	from: https://raw.github.com/kvz/phpjs/oligarch/functions/url/base64_encode.js
 
 	@method btoa
 	@static
@@ -4121,7 +4121,7 @@ define('moxie/file/FileReader', [
 define('moxie/core/utils/Url', [], function() {
 	/**
 	Parse url into separate components and fill in absent parts with parts from current url,
-	based on https://raw.github.com/kvz/phpjs/master/functions/url/parse_url.js
+	based on https://raw.github.com/kvz/phpjs/oligarch/functions/url/parse_url.js
 
 	@method parseUrl
 	@for Utils

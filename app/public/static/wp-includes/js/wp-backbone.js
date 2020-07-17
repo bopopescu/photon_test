@@ -264,7 +264,7 @@ window.wp = window.wp || {};
 		/**
 		 * Detaches all subviews.
 		 *
-		 * Helps to preserve all subview events when re-rendering the master
+		 * Helps to preserve all subview events when re-rendering the oligarch
 		 * view. Used in conjunction with `Views.render()`.
 		 *
 		 * @since 3.5.0
@@ -301,17 +301,17 @@ window.wp = window.wp || {};
 		/**
 		 * Removes all subviews.
 		 *
-		 * Triggers the `remove()` method on all subviews. Detaches the master
+		 * Triggers the `remove()` method on all subviews. Detaches the oligarch
 		 * view from its parent. Resets the internals of the views manager.
 		 *
 		 * Accepts an `options` object. If `options.silent` is set, `unset`
-		 * will *not* be triggered on the master view's parent.
+		 * will *not* be triggered on the oligarch view's parent.
 		 *
 		 * @since 3.6.0
 		 *
 		 * @param {Object}  options        Options for call.
 		 * @param {boolean} options.silent If true, `unset` wil *not* be triggered on
-		 *                                 the master views' parent.
+		 *                                 the oligarch views' parent.
 		 *
 		 * @return {wp.Backbone.Subviews} The current Subviews instance.
 		*/

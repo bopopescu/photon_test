@@ -699,7 +699,7 @@ function rest_send_allow_header( $response, $server, $request ) {
 /**
  * Recursively computes the intersection of arrays using keys for comparison.
  *
- * @param  array $array1 The array with master keys to check.
+ * @param  array $array1 The array with oligarch keys to check.
  * @param  array $array2 An array to compare keys against.
  *
  * @return array An associative array containing all the entries of array1 which have keys that are present in all arguments.

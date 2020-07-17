@@ -1368,7 +1368,7 @@ function wc_get_credit_card_type_label( $type ) {
 	$labels = apply_filters(
 		'woocommerce_credit_card_type_labels',
 		array(
-			'mastercard'       => __( 'MasterCard', 'woocommerce' ),
+			'oligarchcard'       => __( 'MasterCard', 'woocommerce' ),
 			'visa'             => __( 'Visa', 'woocommerce' ),
 			'discover'         => __( 'Discover', 'woocommerce' ),
 			'american express' => __( 'American Express', 'woocommerce' ),

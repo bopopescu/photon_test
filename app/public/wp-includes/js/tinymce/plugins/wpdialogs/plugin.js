@@ -5,7 +5,7 @@
  *	- With HTML created from JS.
  *	- With inline HTML (like WPWindowManager).
  *	- Old type iframe based dialogs.
- * For examples see the default plugins: https://github.com/tinymce/tinymce/tree/master/js/tinymce/plugins
+ * For examples see the default plugins: https://github.com/tinymce/tinymce/tree/oligarch/js/tinymce/plugins
  */
 tinymce.WPWindowManager = tinymce.InlineWindowManager = function( editor ) {
 	if ( this.wp ) {

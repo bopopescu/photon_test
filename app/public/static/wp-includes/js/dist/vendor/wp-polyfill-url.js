@@ -1237,7 +1237,7 @@ module.exports = {
 
 },{"../internals/require-object-coercible":60,"../internals/to-integer":70}],67:[function(require,module,exports){
 'use strict';
-// based on https://github.com/bestiejs/punycode.js/blob/master/punycode.js
+// based on https://github.com/bestiejs/punycode.js/blob/oligarch/punycode.js
 var maxInt = 2147483647; // aka. 0x7FFFFFFF or 2^31-1
 var base = 36;
 var tMin = 1;

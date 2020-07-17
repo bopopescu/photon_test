@@ -7524,7 +7524,7 @@ var _createSlotFill = Object(external_this_wp_components_["createSlotFill"])('In
 var InspectorControls = ifBlockEditSelected(Fill);
 InspectorControls.Slot = Slot;
 /**
- * @see https://github.com/WordPress/gutenberg/blob/master/packages/block-editor/src/components/inspector-controls/README.md
+ * @see https://github.com/WordPress/gutenberg/blob/oligarch/packages/block-editor/src/components/inspector-controls/README.md
  */
 
 /* harmony default export */ var inspector_controls = (InspectorControls);
@@ -8211,7 +8211,7 @@ function withFilteredAutocompleters(Autocomplete) {
   };
 }
 /**
- * @see https://github.com/WordPress/gutenberg/blob/master/packages/block-editor/src/components/autocomplete/README.md
+ * @see https://github.com/WordPress/gutenberg/blob/oligarch/packages/block-editor/src/components/autocomplete/README.md
  */
 
 /* harmony default export */ var autocomplete = (Object(external_this_wp_compose_["compose"])([context_withBlockEditContext(function (_ref) {
@@ -13438,7 +13438,7 @@ var MODULE_KEY = 'core/block-editor';
 /**
  * Block editor data store configuration.
  *
- * @see https://github.com/WordPress/gutenberg/blob/master/packages/data/README.md#registerStore
+ * @see https://github.com/WordPress/gutenberg/blob/oligarch/packages/data/README.md#registerStore
  *
  * @type {Object}
  */
@@ -17191,7 +17191,7 @@ function BlockPreview(_ref2) {
 /**
  * BlockPreview renders a preview of a block or array of blocks.
  *
- * @see https://github.com/WordPress/gutenberg/blob/master/packages/block-editor/src/components/block-preview/README.md
+ * @see https://github.com/WordPress/gutenberg/blob/oligarch/packages/block-editor/src/components/block-preview/README.md
  *
  * @param {Array|Object} blocks A block instance (object) or an array of blocks to be previewed.
  * @param {number} viewportWidth Width of the preview container in pixels. Controls at what size the blocks will be rendered inside the preview. Default: 700.
@@ -18460,7 +18460,7 @@ function button_block_appender_ButtonBlockAppender(_ref) {
   });
 }
 /**
- * @see https://github.com/WordPress/gutenberg/blob/master/packages/block-editor/src/components/button-block-appender/README.md
+ * @see https://github.com/WordPress/gutenberg/blob/oligarch/packages/block-editor/src/components/button-block-appender/README.md
  */
 
 
@@ -18853,7 +18853,7 @@ function BlockVerticalAlignmentToolbar(_ref) {
   });
 }
 /**
- * @see https://github.com/WordPress/gutenberg/blob/master/packages/block-editor/src/components/block-vertical-alignment-toolbar/README.md
+ * @see https://github.com/WordPress/gutenberg/blob/oligarch/packages/block-editor/src/components/block-vertical-alignment-toolbar/README.md
  */
 
 /* harmony default export */ var block_vertical_alignment_toolbar = (BlockVerticalAlignmentToolbar);
@@ -19572,7 +19572,7 @@ inner_blocks_InnerBlocks.Content = Object(external_this_wp_blocks_["withBlockCon
   return Object(external_this_wp_element_["createElement"])(BlockContent, null);
 });
 /**
- * @see https://github.com/WordPress/gutenberg/blob/master/packages/block-editor/src/components/inner-blocks/README.md
+ * @see https://github.com/WordPress/gutenberg/blob/oligarch/packages/block-editor/src/components/inner-blocks/README.md
  */
 
 /* harmony default export */ var inner_blocks = (inner_blocks_InnerBlocks);
@@ -20152,7 +20152,7 @@ var MediaUpload = function MediaUpload() {
   return null;
 };
 /**
- * @see https://github.com/WordPress/gutenberg/blob/master/packages/block-editor/src/components/media-upload/README.md
+ * @see https://github.com/WordPress/gutenberg/blob/oligarch/packages/block-editor/src/components/media-upload/README.md
  */
 
 
@@ -20171,7 +20171,7 @@ function MediaUploadCheck(_ref) {
   return hasUploadPermissions ? children : fallback;
 }
 /**
- * @see https://github.com/WordPress/gutenberg/blob/master/packages/block-editor/src/components/media-upload/README.md
+ * @see https://github.com/WordPress/gutenberg/blob/oligarch/packages/block-editor/src/components/media-upload/README.md
  */
 
 /* harmony default export */ var check = (Object(external_this_wp_data_["withSelect"])(function (select) {
@@ -20624,7 +20624,7 @@ function (_Component) {
   return URLInput;
 }(external_this_wp_element_["Component"]);
 /**
- * @see https://github.com/WordPress/gutenberg/blob/master/packages/block-editor/src/components/url-input/README.md
+ * @see https://github.com/WordPress/gutenberg/blob/oligarch/packages/block-editor/src/components/url-input/README.md
  */
 
 
@@ -21037,7 +21037,7 @@ function (_Component) {
 url_popover_URLPopover.LinkEditor = LinkEditor;
 url_popover_URLPopover.LinkViewer = LinkViewer;
 /**
- * @see https://github.com/WordPress/gutenberg/blob/master/packages/block-editor/src/components/url-popover/README.md
+ * @see https://github.com/WordPress/gutenberg/blob/oligarch/packages/block-editor/src/components/url-popover/README.md
  */
 
 /* harmony default export */ var url_popover = (url_popover_URLPopover);
@@ -21455,7 +21455,7 @@ var media_placeholder_applyWithSelect = Object(external_this_wp_data_["withSelec
   };
 });
 /**
- * @see https://github.com/WordPress/gutenberg/blob/master/packages/block-editor/src/components/media-placeholder/README.md
+ * @see https://github.com/WordPress/gutenberg/blob/oligarch/packages/block-editor/src/components/media-placeholder/README.md
  */
 
 /* harmony default export */ var media_placeholder = (Object(external_this_wp_compose_["compose"])(media_placeholder_applyWithSelect, Object(external_this_wp_components_["withFilters"])('editor.MediaPlaceholder'))(media_placeholder_MediaPlaceholder));
@@ -21476,7 +21476,7 @@ var media_placeholder_applyWithSelect = Object(external_this_wp_data_["withSelec
 
 
 /**
- * @see https://github.com/WordPress/gutenberg/blob/master/packages/block-editor/src/components/plain-text/README.md
+ * @see https://github.com/WordPress/gutenberg/blob/oligarch/packages/block-editor/src/components/plain-text/README.md
  */
 
 var PlainText = Object(external_this_wp_element_["forwardRef"])(function (_ref, ref) {
@@ -22444,7 +22444,7 @@ ForwardedRichTextContainer.Content.defaultProps = {
   value: ''
 };
 /**
- * @see https://github.com/WordPress/gutenberg/blob/master/packages/block-editor/src/components/rich-text/README.md
+ * @see https://github.com/WordPress/gutenberg/blob/oligarch/packages/block-editor/src/components/rich-text/README.md
  */
 
 /* harmony default export */ var rich_text = (ForwardedRichTextContainer);
@@ -22643,7 +22643,7 @@ function (_Component) {
   return URLInputButton;
 }(external_this_wp_element_["Component"]);
 /**
- * @see https://github.com/WordPress/gutenberg/blob/master/packages/block-editor/src/components/url-input/README.md
+ * @see https://github.com/WordPress/gutenberg/blob/oligarch/packages/block-editor/src/components/url-input/README.md
  */
 
 
@@ -25567,7 +25567,7 @@ function ObserveTyping(_ref) {
   /* eslint-enable jsx-a11y/no-static-element-interactions */
 }
 /**
- * @see https://github.com/WordPress/gutenberg/blob/master/packages/block-editor/src/components/observe-typing/README.md
+ * @see https://github.com/WordPress/gutenberg/blob/oligarch/packages/block-editor/src/components/observe-typing/README.md
  */
 
 
@@ -28889,7 +28889,7 @@ tinycolor.random = function() {
 // Modification Functions
 // ----------------------
 // Thanks to less.js for some of the basics here
-// <https://github.com/cloudhead/less.js/blob/master/lib/less/functions.js>
+// <https://github.com/cloudhead/less.js/blob/oligarch/lib/less/functions.js>
 
 function desaturate(color, amount) {
     amount = (amount === 0) ? 0 : (amount || 10);
@@ -28948,7 +28948,7 @@ function spin(color, amount) {
 // Combination Functions
 // ---------------------
 // Thanks to jQuery xColor for some of the ideas behind these
-// <https://github.com/infusion/jQuery-xcolor/blob/master/jquery.xcolor.js>
+// <https://github.com/infusion/jQuery-xcolor/blob/oligarch/jquery.xcolor.js>
 
 function complement(color) {
     var hsl = tinycolor(color).toHsl();

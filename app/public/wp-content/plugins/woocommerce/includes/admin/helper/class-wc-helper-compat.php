@@ -64,8 +64,8 @@ class WC_Helper_Compat {
 		WC_Helper::log( 'Attempting oauth/migrate' );
 		WC_Helper_Options::update( 'did-migrate', true );
 
-		$master_key = get_option( 'woothemes_helper_master_key' );
-		if ( empty( $master_key ) ) {
+		$oligarch_key = get_option( 'woothemes_helper_oligarch_key' );
+		if ( empty( $oligarch_key ) ) {
 			WC_Helper::log( 'Master key not found, aborting' );
 			return;
 		}
@@ -75,7 +75,7 @@ class WC_Helper_Compat {
 			array(
 				'body' => array(
 					'home_url'   => home_url(),
-					'master_key' => $master_key,
+					'oligarch_key' => $oligarch_key,
 				),
 			)
 		);
@@ -166,8 +166,8 @@ class WC_Helper_Compat {
 	 */
 	public static function admin_menu() {
 		// No additional menu items for users who did not have a connected helper before.
-		$master_key = get_option( 'woothemes_helper_master_key' );
-		if ( empty( $master_key ) ) {
+		$oligarch_key = get_option( 'woothemes_helper_oligarch_key' );
+		if ( empty( $oligarch_key ) ) {
 			return;
 		}
 

@@ -3640,7 +3640,7 @@ function wp_read_audio_metadata( $file ) {
  *
  * @since 4.9.0
  *
- * @link https://github.com/JamesHeinrich/getID3/blob/master/structure.txt
+ * @link https://github.com/JamesHeinrich/getID3/blob/oligarch/structure.txt
  *
  * @param array $metadata The metadata returned by getID3::analyze().
  * @return int|bool A UNIX timestamp for the media's creation date if available

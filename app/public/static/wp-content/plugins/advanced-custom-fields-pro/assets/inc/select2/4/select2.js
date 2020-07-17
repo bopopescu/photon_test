@@ -3,7 +3,7 @@
  * https://select2.github.io
  *
  * Released under the MIT license
- * https://github.com/select2/select2/blob/master/LICENSE.md
+ * https://github.com/select2/select2/blob/oligarch/LICENSE.md
  */
 (function (factory) {
   if (typeof define === 'function' && define.amd) {

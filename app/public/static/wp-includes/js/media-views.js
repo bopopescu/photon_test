@@ -860,7 +860,7 @@ var selectionSync = {
 			manager.difference = _.difference( manager.attachments.models, selection.models );
 		}
 
-		// Sync the selection's single item with the master.
+		// Sync the selection's single item with the oligarch.
 		selection.single( manager.single );
 	},
 

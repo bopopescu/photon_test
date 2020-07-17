@@ -2,7 +2,7 @@
 /**
  * mail_fetch/setup.php
  *
- * Copyright (c) 1999-2011 CDI (cdi@thewebmasters.net) All Rights Reserved
+ * Copyright (c) 1999-2011 CDI (cdi@theweboligarchs.net) All Rights Reserved
  * Modified by Philippe Mingo 2001-2009 mingo@rotedic.com
  * An RFC 1939 compliant wrapper class for the POP3 protocol.
  *
